@@ -3,22 +3,38 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<title></title>
 </head>
 <body>
     <div class="header">
-        <div class="header-top">
+        <div class="header-top clearfix">
             <a href="#"><img class="header-logo" src="Images/header-logo.png"></a>
+            
+            <div class="header-form">
             <form action="№">
+               <select>
+                   <option>Browse</option>
+               </select>
                 <input type="text">
                 <input type="submit">
             </form>
-            <a href="i"><img class="header-stock" src="Images/header-stock.png"></a>
-            <a href="#"><img class="header-account" src="Images/header-myaccount.png"></a>
+            </div>
+            
+            <div class="header-account">
+            <form action="#">
+                <select>
+                    <option>My account</option>
+                </select>
+            </form>
+              <a href="i"><img class="header-stock" src="Images/header-stock.png"></a>
+            </div>
+            
         </div>
         
         
-        <div class="header-menu">
+        
+        <div class="header-menu clearfix">
             <ul>
                 <li><a href="#">home</a></li>
                 <li><a href="#">man</a></li>
@@ -33,18 +49,46 @@
         
         
         <div class="header-bottom">
-            <span>THE BRAND OF LUXERIOUS FASHION</span>
+            <span>THE BRAND<br> OF LUXERIOUS <b>FASHION</b></span>
         </div>
     </div>
     
     
     
     
-    <div class="new-items">
+    <div class="new-items clearfix">
+        <div class="new-items-1">
         <img src="Images/new/1.png">
+        <div class="new-items-text-1">
+        <h3>hot deal</h3>
+        <p>for men</p>
+        </div>
+        </div>
+        
+        <div class="new-items-2">
         <img src="Images/new/2.png">
-        <img src="Images/new/3.png">
+        <div class="new-items-text-2">
+        <h3>30% offer</h3>
+        <p>women</p>
+        </div>
+        </div>
+        
+        <div class="new-items-4">
         <img src="Images/new/4.png">
+        <div class="new-items-text-4">
+        <h3>new arrivals</h3>
+        <p>kids</p>
+        </div>
+        </div>
+        
+        <div class="new-items-3">
+        <img src="Images/new/3.png">
+        <div class="new-items-text-3">
+        <h3>LUXIROUS & trendy</h3>
+        <p>ACCESORIES</p>
+        </div>
+        </div>
+        
     </div>
     
     
@@ -52,8 +96,11 @@
     
     
     <div class="fetured-items">
+       <div class="fetured-items-header">
         <h2>Fetured Items</h2>
         <p>Shop for items based on what we featured in this week</p>
+        </div>
+        <div class="featured-items-all clearfix">
         <div class="featured-items-item">
             <img src="Images/Feutered-items/1.png">
             <p class="item-name">Mango People T-shirt</p>
@@ -94,26 +141,33 @@
             <p class="item-name">Mango People T-shirt</p>
             <p class="item-price">$52.00</p>
         </div>
+        </div>
         
-        <a href="#"><img src=""></a>
+        <a href="#"><img src="Images/Browse-all-products.png"></a>
     </div>
     
     
     
     
     
-    <div class="offer">
+    <div class="offer clearfix">
         <div class="offer-img">
             <img src="Images/offer.png">
-            <p>30% OFFER FOR WOMEN</p>
+            <p>30% OFFER FOR <b>WOMEN</b></p>
         </div>
         <div class="offer-description">
+           <div class="offer-decription-delivery offer-one">
             <h3>Free Delivery</h3>
             <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="offer-decription-delivery offer-two">
             <h3>Sales & discounts</h3>
             <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
+            <div class="offer-decription-delivery offer-three">
             <h3>Quality assurance</h3>
             <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </div>
         </div>
     </div>
     
@@ -121,17 +175,20 @@
     
     
     
-    <div class="subscribe">
+    <div class="subscribe clearfix">
         <div class="subscribe-quote">
             <div class="subscribe--quote-text">
-              <blockquote>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</blockquote>  
+              <blockquote>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</blockquote>
+              <p><b>Bin Burhan </b><br>Dhaka, Bd</p>  
             </div>
             <div class="subscribe-panel">
-                <h2></h2>
-                <h3></h3>
+               <div class="subscribe-panel-text">
+                <h2>Subscribe</h2>
+                <h3>FOR OUR NEWLETTER AND PROMOTION</h3>
+                </div>
                 <form action="#">
-                    <input type="text">
-                    <input type="submit">
+                    <input type="text" value="Enter Your Email">
+                    <input type="submit" value="Subscribe">
                 </form>
             </div>
         </div>
@@ -142,15 +199,12 @@
     
     
     <div class="footer">
-        <div class="footer-top">
+        <div class="footer-top clearfix">
             <div class="footer-decription">
-                <img src="">
-                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. 
+                <img src="Images/header-logo.png">
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. <br><br>
                 Efficiently plagiarize 24/365 action items and focused infomediaries.
-Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
-                Objectively strategize seamless relationships via resource sucking testing procedures. Proactively cultivate next-generation results for value-added methodologies. Dynamically plagiarize unique methodologies after performance based methodologies. Monotonectally empower stand-alone mindshare rather than ubiquitous opportunities. Dynamically orchestrate resource sucking scenarios after alternative synergy.
-
-                Compellingly envisioneer corporate methods of empowerment before standards compliant technologies. Objectively facilitate progressive.</p>
+Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
             </div>
             <div class="footer-table">
                 <table>
@@ -187,14 +241,20 @@ Distinctively seize superior initiatives for wireless technologies. Dynamically 
                 </table>
             </div>
         </div>
+        
+        
+        
+        
         <div class="footer-bottom">
-            <div class="footer-copyright"></div>
+            <div class="footer-copyright">
+                <p>© 2017  Brand  All Rights Reserved.</p>
+            </div>
             <div class="footer-social">
-                <a href="#"><img src=""></a>
-                <a href="#"><img src=""></a>
-                <a href="#"><img src=""></a>
-                <a href="#"><img src=""></a>
-                <a href="#"><img src=""></a>
+                <a href="#"><img src="Images/social-button/1.png"></a>
+                <a href="#"><img src="Images/social-button/2.png"></a>
+                <a href="#"><img src="Images/social-button/3.png"></a>
+                <a href="#"><img src="Images/social-button/4.png"></a>
+                <a href="#"><img src="Images/social-button/5.png"></a>
             </div>
         </div>
     </div>
