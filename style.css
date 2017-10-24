@@ -114,6 +114,10 @@ body{
     text-align: left;
 }
 
+.header-menu a:hover{
+    border-bottom: 3px solid #ef5b70;
+}
+
 .header-bottom{
     background-image: url(Images/header-bottom.png);
     height: 665px;
@@ -254,7 +258,7 @@ padding-top: 100px;
 .featured-items-item{
     float: left;
     padding-right: 30px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 
 .item-name{
@@ -534,4 +538,145 @@ display: inline-block;
 .footer-social a:hover{
 display: inline-block;
     background-color: #f16d7f;
+}
+
+/* for order form*/
+
+.new-arrivals{
+    background-color: #f8f3f4;
+    height: 160px;
+    margin-top: 
+}
+
+.new-arrivals h2{
+  font-size: 24px;
+  font-family: "Lato";
+  color: rgb(241, 109, 127);
+  text-transform: uppercase;
+  line-height: 0.833;
+    float: left;
+    display: block;
+    padding-top: 65px;
+    padding-left: 230px;
+
+}
+
+.new-arrivals a{
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(99, 99, 99);
+  text-transform: uppercase;
+  line-height: 1.429;
+  text-decoration: none;
+}
+
+.new-arrivals a:hover{
+    color:#f17687;
+}
+
+.new-arrivals a:last-child{
+    color:#f17687;
+}
+
+.new-arrivals nav{
+    float: left;
+    padding-top: 65px;
+    padding-left: 770px;
+}
+
+.shipping{
+      margin-left:225px;
+    margin-right: 225px;
+    margin-top: 50px;
+}
+
+.shipping h3{
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.shipping-block{
+    padding-top:30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+.shipping-check{
+    float: left;
+    padding-left: 35px;
+}
+
+.shipping-adress h4{
+  font-size: 13px;
+  font-family: "Lato";
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  line-height: 2.2;
+}
+
+.shipping-adress p{
+  font-size: 13px;
+  font-family: "Lato";
+  color: rgb(179, 178, 178);
+  line-height: 1.538;
+}
+.shipping-adress input[type="button"]{
+    background-color: transparent;
+    width: 177px;
+    height: 47px;
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(74, 74, 74);
+  font-weight: bold;
+  text-transform: uppercase;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    
+}
+
+.shipping-register{
+    float: left;
+    padding-left: 290px;
+}
+
+.shipping-register input[type="email"],
+.shipping-register input[type="password"] {
+    width:390px;
+    height: 45px;
+}
+
+.shipping-register input:required{
+    border-color: red;
+}
+
+.shipping-register label{
+  font-size: 12px;
+  font-family: "Lato";
+  color: rgb(34, 34, 34);
+  line-height: 2.667;
+    text-transform: uppercase;
+}
+
+.shipping-register label sup{
+    color:red;
+}
+
+.shipping-register .required-fileds{
+    color: red;
+}
+
+.shipping-register a{
+    padding-left: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(34, 34, 34);
+  line-height: 1.429;
+ 
 }
