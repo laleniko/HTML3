@@ -621,8 +621,12 @@ display: inline-block;
 }
 
 .shipping-check form{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.shipping-check input[type="button"]{
+    margin-top: 20px;
 }
 
 .shipping-adress h4{

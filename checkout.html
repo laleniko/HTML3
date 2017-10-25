@@ -84,7 +84,7 @@
                    <label>email address <sup>&#42;</sup></label><br>
                    <input type="email" required><br>
                    <label>password <sup>&#42;</sup></label><br>
-                   <input type="password" required>
+                   <input type="password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                    <p class="required-fileds"><sup>&#42;</sup>required fileds</p>
                    <input type="button" value="log in">
                    <a href="#">forgot password?</a>
