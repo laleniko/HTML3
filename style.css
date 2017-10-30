@@ -257,8 +257,26 @@ padding-top: 100px;
 
 .featured-items-item{
     float: left;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.featured-items-item-img{
+    position: relative;
+}
+.hover-img {
+    position: absolute;
+    display: none;
+    top: 0;
+}
+
+.featured-items-item:hover{
+    outline: 1px solid #dadada;
+}
+
+.featured-items-item:hover .hover-img{
+    display: block;
+    
 }
 
 .item-name{
